@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#storbox{
+	position: absolute;
+ 	height: 98%;
+    width: 80%;
+  	margin-left: 10%;
+	
+	
+
+}
+header{
+ 	height: 10%;
+    width: 100%;
+    background-color: #75C6FF;
+    box-sizing: border-box;
+    border-top: 2px solid blue;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+    text-align: center;
+    overflow: hidden;
+      
+}
+nav{
+ 	height: 7%;
+    width: 100%;   
+	background-color: yellow; 
+}
+	
+article{
+ 	height: 78%;
+    width: 100%;   
+    background-color: white;
+    overflow:auto;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    padding: 20px;
+	
+
+}
+footer{
+    height: 5%;
+    width: 100%;
+    background-color: #75C6FF;
+    box-sizing: border-box;
+    border-right: 2px solid blue;
+    border-left: 2px solid blue;
+	border-bottom: 2px solid blue;
+    font-size: 30px;
+    overflow: hidden;
+    
+}
+ul{
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #0095FF;
+    box-sizing: border-box;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue;	
+	
+}
+li{
+	
+	
+	list-style-type: none;
+	text-align: center;
+    width: 20%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    border-left: 1px solid blue;
+    border-right: 1px solid blue; 
+    border-top: 2px solid blue;
+    border-bottom: 1px solid blue;
+    
+	
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 800;
+}
+
+li a{
+	text-decoration: none;
+	color: blue;
+	background-color: #0095FF;
+    display: block;
+    height: 100%;
+    width: 100%; 
+    box-sizing: border-box;
+    font-size: 25px;
+	padding-top: 2%;
+    overflow: hidden;
+   
+}
+
+
+li a:hover{
+    background-color: #70C4FF;
+}
+li a:active{
+	 background-color: #70C4FF;
+	 box-sizing:border-box;
+	 border:3px solid black;
+}
+p{
+    margin: 0;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 14px;
+    
+}
+
+h1{
+    font-size: 35px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding-top: 0;
+}
+h2{
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+		
+}
+img{
+	padding: 0;
+	margin: 0;	
+}
+#nobelpriset{
+	max-height: 90%;
+    max-width: 80%;
+	margin:auto;
+	display: block;
+	
+}
+#bild-bildtext1{
+	margin: auto;
+	height: 390px;
+	width: 348px;
+	padding: 10px;
+	
+}
+#bild-bildtext2{
+	margin: auto;
+	height: 650px;
+	width: 348px;
+	padding: 10px;	
+}
+img{
+	display:block;
+	margin:auto;
+	padding: 10px;	
+}
+
+figcaption{
+	font-style: italic;	
+	text-align: center;
+}
